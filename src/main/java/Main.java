@@ -4,16 +4,16 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         Animal[] animals = {
-                new Dog("Тузик", 5),
-                new Dog("Рекс", 2),
-                new Dog("Бобик", 7),
-                new Dog("Джек", 3),
-                new Dog("Мухтар", 1),
-                new Cat("Мурка", 2),
-                new Cat("Васька", 1),
-                new Cat("Белка", 4),
-                new Cat("Стрелка", 8),
-                new Cat("Леон", 3)
+                new Dog("Туз", "Алабай", 5),
+                new Dog("Рекс", "Лабрадор", 2),
+                new Dog("Бобин", "Ротвейлер", 7),
+                new Dog("Джек", "Бигль", 3),
+                new Dog("Урбуш", "Эрдельтерьер", 1),
+                new Cat("Мурка", "Мейн-кун", 2),
+                new Cat("Санни", "Рэгдолл", 1),
+                new Cat("Кефир", "Манчкин", 4),
+                new Cat("Зола", "Нибелунг", 8),
+                new Cat("Леон", "Ангора", 3)
         };
 
         // Перекличка

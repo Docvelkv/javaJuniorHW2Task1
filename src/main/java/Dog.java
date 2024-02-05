@@ -1,6 +1,14 @@
 public class Dog extends Animal{
-    public Dog(String name, int age) {
+
+    private final String breed;
+
+    public Dog(String name,String breed, int age) {
         super(name, age);
+        this.breed = breed;
+    }
+
+    public String getBreed() {
+        return breed;
     }
 
     public void makeSound(){
@@ -9,6 +17,9 @@ public class Dog extends Animal{
 
     @Override
     public String toString() {
-        return String.format("%s: %s", getClass().getName(), super.toString());
+        return String.format("%s, порода %s: %s",
+                getClass().getName(),
+                getBreed(),
+                super.toString());
     }
 }
